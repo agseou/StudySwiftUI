@@ -26,7 +26,7 @@ struct TossUIView: View {
                     .multilineTextAlignment(.leading)
                     .padding(.bottom, 40)
                 
-                VStack(alignment: .leading,spacing: 30) {
+                VStack(alignment: .leading, spacing: 30) {
                     HStack {
                         Image(systemName: "heart.fill")
                             .foregroundColor(.blue)

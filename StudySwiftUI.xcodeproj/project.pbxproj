@@ -12,6 +12,7 @@
 		E2C514AD2BCD3F320021C172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C514AC2BCD3F320021C172 /* Assets.xcassets */; };
 		E2C514B02BCD3F320021C172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2C514AF2BCD3F320021C172 /* Preview Assets.xcassets */; };
 		E2C514B72BCD3F400021C172 /* TossUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C514B62BCD3F400021C172 /* TossUIView.swift */; };
+		E2C514EB2BCFBDE40021C172 /* TamagotchiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C514EA2BCFBDE40021C172 /* TamagotchiView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		E2C514AC2BCD3F320021C172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2C514AF2BCD3F320021C172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E2C514B62BCD3F400021C172 /* TossUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TossUIView.swift; sourceTree = "<group>"; };
+		E2C514EA2BCFBDE40021C172 /* TamagotchiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagotchiView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				E2C514A82BCD3F300021C172 /* StudySwiftUIApp.swift */,
 				E2C514AA2BCD3F300021C172 /* ContentView.swift */,
 				E2C514B62BCD3F400021C172 /* TossUIView.swift */,
+				E2C514EA2BCFBDE40021C172 /* TamagotchiView.swift */,
 				E2C514AC2BCD3F320021C172 /* Assets.xcassets */,
 				E2C514AE2BCD3F320021C172 /* Preview Content */,
 			);
@@ -143,6 +146,7 @@
 				E2C514AB2BCD3F300021C172 /* ContentView.swift in Sources */,
 				E2C514A92BCD3F300021C172 /* StudySwiftUIApp.swift in Sources */,
 				E2C514B72BCD3F400021C172 /* TossUIView.swift in Sources */,
+				E2C514EB2BCFBDE40021C172 /* TamagotchiView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
