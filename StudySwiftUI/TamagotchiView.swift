@@ -24,6 +24,8 @@ struct TamagotchiView: View {
             
             VStack(alignment: .center) {
                 Text("방실방실 다마고치")
+                    .padding(12)
+                    .border(.gray, width: 1)
                 Text("LV\(level) ∙ 밥알 \(food)개 ∙ 물방울 \(water)개")
                 HStack {
                     TextField("밥 쥬세요", text: $inputFood)
@@ -53,10 +55,11 @@ struct TamagotchiView: View {
                     }
                 }
             } //: VStack
+            .font(.system(size: 18, weight: .bold))
+            .foregroundColor(.indigo)
         } //: ZStack
     }
 }
-
 
 #Preview {
     TamagotchiView()

@@ -27,24 +27,10 @@ struct TossUIView: View {
                     .padding(.bottom, 40)
                 
                 VStack(alignment: .leading, spacing: 30) {
-                    HStack {
-                        Image(systemName: "heart.fill")
-                            .foregroundColor(.blue)
-                        Text("매일 포인트 받는 출석체크 퀴즈")
-                            
-                    }
-                    HStack {
-                        Image(systemName: "circle.fill")
-                            .foregroundColor(.red)
-                        Text("새로운 이벤트")
-                    }
-                    HStack {
-                        Image(systemName: "star.fill")
-                            .foregroundColor(.yellow)
-                        Text("미션추천")
-                    }
+                    list(icon: "heart.fill", iconColor: .blue, title: "매일 포인트 받는 출석체크 퀴즈")
+                    list(icon: "circle.fill", iconColor: .red, title: "새로운 이벤트")
+                    list(icon: "star.fill", iconColor: .yellow, title: "미션추천")
                 }
-                .font(.system(size: 18))
                 
                 Spacer()
                 
@@ -71,6 +57,22 @@ struct TossUIView: View {
             .foregroundColor(.white)
             .padding(.horizontal)
         } // ZStack
+    }
+}
+
+struct list: View {
+    
+    var icon: String
+    var iconColor: Color
+    var title: String
+   
+    var body: some View {
+        HStack {
+            Image(systemName: icon)
+                .foregroundColor(iconColor)
+            Text(title)
+                .font(.system(size: 18))
+        }
     }
 }
 
